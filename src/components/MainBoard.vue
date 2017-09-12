@@ -31,7 +31,7 @@
 
   #mainBoard {
     width: 100%;
-    padding: 10px 30px 40px 40px;
+    padding: 10px 30px 0px 40px;
     float: left;
 
     .inner {
@@ -49,7 +49,7 @@
 
       position: relative;
       width: 80px;
-      margin: 38px 0 20px 0;
+      margin: 25px 0 20px 0;
       @include title-absolute-underline($common-blue);
 
       h3 {

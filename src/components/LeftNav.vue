@@ -29,7 +29,7 @@
     },
     mounted() {
       window.onresize = function WindowOnresize() {
-        if (document.getElementById('leftNav').clientHeight < document.getElementById('mainBoard').clientHeight) {
+        if (document.getElementById('leftNav').clientHeight <= document.getElementById('mainBoard').clientHeight) {
           document.getElementById('leftNav').style.height = `${document.getElementById('mainBoard').clientHeight}px`;
         }
       };
@@ -45,7 +45,7 @@
     height: auto;
     float: left;
     margin-left: -100%;
-    padding: 48px 0;
+    padding: 35px 0 15px;
     background-color: $common-blue;
 
     h1 {
