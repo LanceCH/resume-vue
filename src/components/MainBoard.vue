@@ -49,7 +49,7 @@
 
       position: relative;
       width: 80px;
-      margin: 25px 0 20px 0;
+      margin: 28px 0 20px 0;
       @include title-absolute-underline($common-blue);
 
       h3 {
