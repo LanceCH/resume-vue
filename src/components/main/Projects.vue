@@ -48,7 +48,7 @@
   }
 
   .projects-list {
-
+    margin-top: -16px;
     li {
       margin-top: 16px;
       margin-right: 10%;
@@ -75,5 +75,35 @@
         color: $dark-blue;
       }
     }
+  }
+
+  @media only screen and (max-width: 1000px){
+    .projects-list{
+      margin-top: -12px;
+      li{
+        display: block;
+        width: 100%;
+      }
+    }
+    .projects-title {
+      margin-bottom: 4px;
+
+      span {
+        color: #161616;
+        font-size: 11px;
+        margin-right: 0px;
+      }
+
+      a {
+        margin-right: 16px;
+        font-size: 14px;
+        color: $common-blue;
+
+        &:hover {
+          color: $dark-blue;
+        }
+      }
+    }
+
   }
 </style>

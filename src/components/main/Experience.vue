@@ -62,7 +62,8 @@
   }
 
   .experience-title {
-    width: 250px;
+    // width: 250px;
+    width: 22%;
 
     h4 {
       color: $common-blue;
@@ -84,5 +85,18 @@
     &:hover {
       color: $dark-blue;
     }
+  }
+
+  @media only screen and (max-width: 1000px){
+    .experience-title  {
+      width: 100%;
+    }
+    .experience-list{
+      li{
+        display: block;
+        margin-top: 6px;
+      }
+    }
+    
   }
 </style>

@@ -42,9 +42,10 @@
 
   #leftNav {
     width: 288px;
+    // width: 19%;
     height: auto;
     float: left;
-    margin-left: -100%;
+    // margin-left: -100%;
     padding: 35px 0 15px;
     background-color: $common-blue;
 
@@ -87,5 +88,56 @@
     background-color: $common-white;
     border-radius: 50%;
     box-shadow: 1px 1px 1px $common-black;
+  }
+  @media only screen and (max-width: 1000px){
+    #leftNav {
+      //width:288px;
+      width: 42%;
+      height: auto;
+      float: left;
+      // margin-left: -100%;
+      padding: 35px 0 15px;
+      background-color: $common-blue;
+
+      h1 {
+        color: $common-white;
+        margin-top: 10px;
+      }
+
+      section.aboutMe, section.contact, section.self-evaluation {
+
+        margin-top: 24px;
+
+        h3.section-title {
+          color: $common-white;
+          @include title-underline($common-white);
+          margin-bottom: 10px;
+        }
+
+        ul {
+          text-align: left;
+          margin-left: 10px;
+
+          li {
+            line-height: 2;
+
+            i {
+              margin-right: 3px;
+              font-size: 18px;
+              width: 20px;
+            }
+          }
+        }
+
+      }
+
+    }
+    #avatar {
+      height: 70px;
+      background-color: $common-white;
+      border-radius: 50%;
+      box-shadow: 1px 1px 1px $common-black;
+    }
+
   }
 </style>

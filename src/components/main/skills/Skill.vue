@@ -73,11 +73,34 @@
 
     }
   }
-  @media (max-width: 430px){
+  @media only screen and (max-width: 1000px){
     .skill {
       display: inline-block;
       width: 100%;
       margin: 0 20px 14px 0;
+    }
+    .skill-title {
+      width: 45px;
+      display: inline-block;
+      text-align: right;
+      margin-right: 10px;
+    }
+    .skill-line {
+      position: relative;
+      display: inline-block;
+      width: 60%;
+      height: 8px;
+      border-radius: 4px;
+      background-color: $dark-blue;
+
+      .skill-value {
+        content: "";
+        position: absolute;
+        height: 100%;
+        border-radius: 4px;
+        background: $common-blue none repeat scroll 0 0;
+
+      }
     }
   }
 </style>

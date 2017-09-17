@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <mainBoard></mainBoard>
     <leftNav></leftNav>
+    <mainBoard></mainBoard>
   </div>
 </template>
 
@@ -60,5 +60,21 @@
 
   h4 {
     font-size: 18px;
+  }
+  @media only screen and (max-width: 400px){
+    h1 {
+      font-size: 24px;
+    }
+
+    h3 {
+      font-size: 16px;
+    }
+
+    h4 {
+      font-size: 10px;
+    }
+    html,body{
+      font-size: 10px;
+    }
   }
 </style>

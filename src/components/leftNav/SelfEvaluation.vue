@@ -28,4 +28,10 @@
       text-align: left;
     }
   }
+  @media only screen and (max-width: 400px){
+    .self-evaluation {
+    margin: 0 10px;
+  }
+  }
+
 </style>

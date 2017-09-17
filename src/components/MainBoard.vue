@@ -32,7 +32,7 @@
   #mainBoard {
     width: 100%;
     padding: 10px 30px 0px 40px;
-    float: left;
+    // float: left;
 
     .inner {
       margin-left: 288px;
@@ -49,7 +49,7 @@
 
       position: relative;
       width: 80px;
-      margin: 28px 0 20px 0;
+      margin: 33px 0 20px 0;
       @include title-absolute-underline($common-blue);
 
       h3 {
@@ -57,5 +57,35 @@
       }
     }
 
+  }
+  @media only screen and (max-width: 1000px){
+    #mainBoard {
+      width: 100%;
+      padding: 10px 30px 0px 40px;
+      // float: left;
+
+      .inner {
+        margin-left: 40%;
+        min-width: 210px;
+      }
+
+    }
+    .skills, .experience, .projects {
+
+      text-align: left;
+
+      .section-title {
+
+        position: relative;
+        width: 80px;
+        margin: 15px 0 0 0;
+        @include title-absolute-underline($common-blue);
+
+        h3 {
+          color: $common-blue;
+        }
+      }
+
+    }
   }
 </style>
