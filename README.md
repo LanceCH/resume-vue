@@ -14,7 +14,7 @@
 
 ``` bash
 # download the project
-git clone git@github.com:bighuang624/resume.git
+git clone git@github.com:LanceCH/resume-vue.git
 cd resume
 
 # install dependencies
